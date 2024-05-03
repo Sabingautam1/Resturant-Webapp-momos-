@@ -1,0 +1,48 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: white; /* Background color */
+    border: 2px solid #080404; /* Boundary line */
+    padding: 20px; /* Padding around navbar */
+    width: 100%; /* Full width */
+    height: 60px; /* Adjust height as needed */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    z-index: 1000;
+}
+
+  .nav-links {
+    list-style-type: none; /* Remove bullets from list */
+    margin: 0; /* Remove default margin */
+    padding: 10px; /* Remove default padding */
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  .nav-links li {
+    margin-left: 20px; /* Space between list items */
+  }
+  
+  .nav-links li a {
+    color: black; /* Text color */
+    text-decoration: none;
+    font-size: larger;
+    margin-left: 20px; /* Remove underline */
+  }
+  
+  .contact-btn {
+    align-items: right;
+    background-color: red; /* Red background */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .social-icons  {
+
+    margin-left: 100px; /* Space between social icons */
+  }
+  .social-icons a{
+    margin-left: 20px;
+  }

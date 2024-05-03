@@ -1,0 +1,40 @@
+.recipe-container {
+    background-color: rgb(249, 244, 244); /* Set background color to white */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  .item-container {
+    display: flex; /* Display items in a row */
+    flex-wrap: wrap; /* Wrap items to the next line if they exceed the container width */
+    justify-content: center;
+    padding: 20px; /* Center items horizontally */
+  }
+  
+  .item-container .border-2 {
+    width: calc(33.33% - 20px); /* Set width of each item (adjust as needed) */
+    margin: 10px; /* Add margin for spacing between items */
+  }
+  
+  .text-center {
+    color: rgb(23, 22, 22); /* Set text color to white */
+  }
+  .recipe-title {
+    color: #333; /* Set title color */
+    font-size: 24px; /* Set title font size */
+    font-weight: bold; /* Set title font weight */
+    margin-bottom: 10px; /* Add margin bottom for spacing */
+  }
+  
+  .recipe-highlight {
+    color: #007bff; /* Set highlight color */
+  }
+  
+  .recipe-subtitle {
+    color: #666; /* Set subtitle color */
+    font-size: 16px; /* Set subtitle font size */
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+  }
+  .button{
+    padding: 20px;
+    
+  }

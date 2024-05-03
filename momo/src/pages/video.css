@@ -1,0 +1,23 @@
+*{
+    background-color:white;
+}/* video.css */
+
+/* Style for the container of the images */
+.image-row {
+    display:flex;
+    justify-content: space-around;
+    background-color: #fdfafa; /* White background */
+    padding: 1rem 0; /* Add padding */
+  }
+  
+  /* Style for the images */
+  .image-row img {
+    padding: 50px;
+    width: auto; /* Set width of each image */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .flexbutton
+  {
+    align-content: center;
+    align-items: center;
+  }

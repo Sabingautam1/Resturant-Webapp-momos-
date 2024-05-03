@@ -1,0 +1,23 @@
+
+
+.happy-customer-container {
+  background-color: rgb(254, 249, 249);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.happy-customer-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.happy-customer-text {
+  color:rgb(5, 5, 14);
+  flex: 2;
+}
+
+.happy-customer-name {
+  color: #c42828; /* Change to your desired text color */
+}
